@@ -19,7 +19,7 @@
 		AA59060F2B07B0E20098971C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59060E2B07B0E20098971C /* CollectionViewTableViewCell.swift */; };
 		AA5906112B07B64F0098971C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5906102B07B64F0098971C /* HeroHeaderUIView.swift */; };
 		AAE45A5C2B0A70450049E51C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45A5B2B0A70450049E51C /* APICaller.swift */; };
-		AAE45A5E2B0A76E00049E51C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45A5D2B0A76E00049E51C /* Movie.swift */; };
+		AAE45A5E2B0A76E00049E51C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45A5D2B0A76E00049E51C /* Title.swift */; };
 		AAE45A602B0A7BF90049E51C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45A5F2B0A7BF90049E51C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		AA59060E2B07B0E20098971C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		AA5906102B07B64F0098971C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		AAE45A5B2B0A70450049E51C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
-		AAE45A5D2B0A76E00049E51C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AAE45A5D2B0A76E00049E51C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		AAE45A5F2B0A7BF90049E51C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +118,7 @@
 		AA59060B2B07B05F0098971C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AAE45A5D2B0A76E00049E51C /* Movie.swift */,
+				AAE45A5D2B0A76E00049E51C /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 				AAE45A602B0A7BF90049E51C /* Extensions.swift in Sources */,
 				AA5906042B07A9BD0098971C /* UpComingViewController.swift in Sources */,
 				AA5905EF2B07A7BB0098971C /* SceneDelegate.swift in Sources */,
-				AAE45A5E2B0A76E00049E51C /* Movie.swift in Sources */,
+				AAE45A5E2B0A76E00049E51C /* Title.swift in Sources */,
 				AA5906022B07A96B0098971C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

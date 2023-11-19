@@ -53,8 +53,6 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
           return 10
      }
      
-     
-     
 }
 
 #Preview(){
