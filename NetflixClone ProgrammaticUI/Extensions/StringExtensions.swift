@@ -1,5 +1,5 @@
 //
-//  Extensions.swift
+//  StringExtensions.swift
 //  NetflixClone ProgrammaticUI
 //
 //  Created by Berkin Koca on 19.11.2023.
