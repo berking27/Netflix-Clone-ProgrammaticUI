@@ -84,6 +84,6 @@ class TitleTableViewCell: UITableViewCell {
 }
 
 #Preview() {
-     //MainTabBarViewController()
-     UpComingViewController()
+     MainTabBarViewController()
+     //UpComingViewController()
 }
