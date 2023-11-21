@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AA43B5552B0BAF2600F2ADD8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43B5542B0BAF2600F2ADD8 /* SearchResultsViewController.swift */; };
+		AA4C68EE2B0C95F200E322F9 /* APICallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */; };
+		AA4C68F12B0C96F400E322F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C68F02B0C96F400E322F9 /* Constants.swift */; };
+		AA4C68F42B0C973D00E322F9 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C68F32B0C973D00E322F9 /* Enums.swift */; };
 		AA5905ED2B07A7BB0098971C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5905EC2B07A7BB0098971C /* AppDelegate.swift */; };
 		AA5905EF2B07A7BB0098971C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5905EE2B07A7BB0098971C /* SceneDelegate.swift */; };
 		AA5905F12B07A7BB0098971C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5905F02B07A7BB0098971C /* MainTabBarViewController.swift */; };
@@ -31,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		AA43B5542B0BAF2600F2ADD8 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerProtocol.swift; sourceTree = "<group>"; };
+		AA4C68F02B0C96F400E322F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AA4C68F32B0C973D00E322F9 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		AA5905E92B07A7BB0098971C /* NetflixClone ProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetflixClone ProgrammaticUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5905EC2B07A7BB0098971C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5905EE2B07A7BB0098971C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +91,22 @@
 			path = General;
 			sourceTree = "<group>";
 		};
+		AA4C68EF2B0C96DC00E322F9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C68F02B0C96F400E322F9 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AA4C68F22B0C973100E322F9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C68F32B0C973D00E322F9 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		AA5905E02B07A7BB0098971C = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +136,8 @@
 				AABBF0DD2B0B7FA900A0020F /* Extensions */,
 				AA59060D2B07B07D0098971C /* Managers */,
 				AA59060C2B07B0730098971C /* Resources */,
+				AA4C68EF2B0C96DC00E322F9 /* Constants */,
+				AA4C68F22B0C973100E322F9 /* Enums */,
 			);
 			path = "NetflixClone ProgrammaticUI";
 			sourceTree = "<group>";
@@ -167,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				AAE45A5B2B0A70450049E51C /* APICaller.swift */,
+				AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -270,8 +295,11 @@
 				AA5906042B07A9BD0098971C /* UpComingViewController.swift in Sources */,
 				AA5905EF2B07A7BB0098971C /* SceneDelegate.swift in Sources */,
 				AAE45A5E2B0A76E00049E51C /* Title.swift in Sources */,
+				AA4C68EE2B0C95F200E322F9 /* APICallerProtocol.swift in Sources */,
 				AA5906022B07A96B0098971C /* HomeViewController.swift in Sources */,
 				AABBF0DC2B0B733900A0020F /* TitleViewModel.swift in Sources */,
+				AA4C68F12B0C96F400E322F9 /* Constants.swift in Sources */,
+				AA4C68F42B0C973D00E322F9 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

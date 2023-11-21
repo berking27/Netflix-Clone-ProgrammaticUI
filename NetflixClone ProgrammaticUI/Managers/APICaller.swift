@@ -7,19 +7,8 @@
 
 import Foundation
 
-struct Constants {
-     static let API_KEY = "?api_key=063a97b2f563fad5ba0aeefb03f1daa2"
-     static let baseURL = "https://api.themoviedb.org"
-}
 
-
-
-enum APIError: Error {
-     case failedToGetData
-     
-}
-
-class APICaller {
+class APICaller: APICallerProtocol {
      static let shared = APICaller()
      
      private init(){
