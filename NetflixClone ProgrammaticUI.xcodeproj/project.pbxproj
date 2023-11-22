@@ -190,8 +190,8 @@
 		AA59060D2B07B07D0098971C /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				AAE45A5B2B0A70450049E51C /* APICaller.swift */,
 				AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */,
+				AAE45A5B2B0A70450049E51C /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";

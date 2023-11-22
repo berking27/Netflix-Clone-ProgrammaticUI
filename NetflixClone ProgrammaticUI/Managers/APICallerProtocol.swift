@@ -22,5 +22,5 @@ protocol APICallerProtocol {
      
      func getDiscoveredMovies(completion: @escaping (Result<[Title], Error>) -> Void )
      
-     
+     func search(with query: String, completion: @escaping (Result<[Title], Error>) -> Void )
 }

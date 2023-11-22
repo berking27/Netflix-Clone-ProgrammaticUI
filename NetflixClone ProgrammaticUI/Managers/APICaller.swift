@@ -19,7 +19,7 @@ class APICaller: APICallerProtocol {
           
           //type alias'la yap.
           //@escaping yerine asyn await kullanılabilir
-          //Protocollere ayır
+          ///Protocollere ayır
           //Dependency Injection -> View'a yap.
           //Mock'u Inject ederek çalıştırmayı dene.
           
@@ -127,6 +127,31 @@ class APICaller: APICallerProtocol {
           }
           task.resume()
      }
+     
+     func search(with query: String, completion: @escaping (Result<[Title], Error>) -> Void) {
+
+            guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {return}
+            guard let url = URL(string: "\(Constants.baseURL)/3/search/movie\(Constants.API_KEY)&query=\(query)") else {
+                 
+                return
+            }
+
+            let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
+                guard let data = data, error == nil else {
+                    return
+                }
+
+                do {
+                    let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
+                    completion(.success(results.results))
+
+                } catch {
+                    completion(.failure(APIError.failedToGetData))
+                }
+
+            }
+            task.resume()
+        }
 }
 
 
