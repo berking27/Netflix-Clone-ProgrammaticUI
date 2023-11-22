@@ -30,6 +30,8 @@
 		AAE45A5C2B0A70450049E51C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45A5B2B0A70450049E51C /* APICaller.swift */; };
 		AAE45A5E2B0A76E00049E51C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45A5D2B0A76E00049E51C /* Title.swift */; };
 		AAE45A602B0A7BF90049E51C /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45A5F2B0A7BF90049E51C /* StringExtensions.swift */; };
+		AAFCAADC2B0E4701000F9786 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCAADB2B0E4701000F9786 /* YoutubeSearchResponse.swift */; };
+		AAFCAADE2B0E49CB000F9786 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCAADD2B0E49CB000F9786 /* TitlePreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		AAE45A5B2B0A70450049E51C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		AAE45A5D2B0A76E00049E51C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		AAE45A5F2B0A7BF90049E51C /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		AAFCAADB2B0E4701000F9786 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		AAFCAADD2B0E49CB000F9786 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AA43B5542B0BAF2600F2ADD8 /* SearchResultsViewController.swift */,
+				AAFCAADD2B0E49CB000F9786 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				AAE45A5D2B0A76E00049E51C /* Title.swift */,
+				AAFCAADB2B0E4701000F9786 /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -283,12 +289,14 @@
 			files = (
 				AABBF0DA2B0B70A100A0020F /* TitleTableViewCell.swift in Sources */,
 				AA5906062B07A9E10098971C /* SearchViewController.swift in Sources */,
+				AAFCAADE2B0E49CB000F9786 /* TitlePreviewViewController.swift in Sources */,
 				AABBF0D32B0B365900A0020F /* TitleCollectionViewCell.swift in Sources */,
 				AA5905F12B07A7BB0098971C /* MainTabBarViewController.swift in Sources */,
 				AA59060F2B07B0E20098971C /* CollectionViewTableViewCell.swift in Sources */,
 				AAE45A5C2B0A70450049E51C /* APICaller.swift in Sources */,
 				AA5906112B07B64F0098971C /* HeroHeaderUIView.swift in Sources */,
 				AA5906082B07AA020098971C /* DownloadsViewController.swift in Sources */,
+				AAFCAADC2B0E4701000F9786 /* YoutubeSearchResponse.swift in Sources */,
 				AA5905ED2B07A7BB0098971C /* AppDelegate.swift in Sources */,
 				AA43B5552B0BAF2600F2ADD8 /* SearchResultsViewController.swift in Sources */,
 				AAE45A602B0A7BF90049E51C /* StringExtensions.swift in Sources */,
