@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA43B5552B0BAF2600F2ADD8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43B5542B0BAF2600F2ADD8 /* SearchResultsViewController.swift */; };
+		AA4BE27C2B0F8AB00080CE56 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BE27B2B0F8AB00080CE56 /* TitlePreviewViewModel.swift */; };
 		AA4C68EE2B0C95F200E322F9 /* APICallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */; };
 		AA4C68F12B0C96F400E322F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C68F02B0C96F400E322F9 /* Constants.swift */; };
 		AA4C68F42B0C973D00E322F9 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C68F32B0C973D00E322F9 /* Enums.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		AA43B5542B0BAF2600F2ADD8 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		AA4BE27B2B0F8AB00080CE56 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerProtocol.swift; sourceTree = "<group>"; };
 		AA4C68F02B0C96F400E322F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AA4C68F32B0C973D00E322F9 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				AABBF0DB2B0B733900A0020F /* TitleViewModel.swift */,
+				AA4BE27B2B0F8AB00080CE56 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				AA5906062B07A9E10098971C /* SearchViewController.swift in Sources */,
 				AAFCAADE2B0E49CB000F9786 /* TitlePreviewViewController.swift in Sources */,
 				AABBF0D32B0B365900A0020F /* TitleCollectionViewCell.swift in Sources */,
+				AA4BE27C2B0F8AB00080CE56 /* TitlePreviewViewModel.swift in Sources */,
 				AA5905F12B07A7BB0098971C /* MainTabBarViewController.swift in Sources */,
 				AA59060F2B07B0E20098971C /* CollectionViewTableViewCell.swift in Sources */,
 				AAE45A5C2B0A70450049E51C /* APICaller.swift in Sources */,
