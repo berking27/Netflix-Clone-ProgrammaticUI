@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA10D5B02B165EE000B4C1AD /* NetflixCloneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA10D5AE2B165EE000B4C1AD /* NetflixCloneModel.xcdatamodeld */; };
+		AA10D5B22B16869E00B4C1AD /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10D5B12B16869E00B4C1AD /* DataPersistenceManager.swift */; };
 		AA43B5552B0BAF2600F2ADD8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43B5542B0BAF2600F2ADD8 /* SearchResultsViewController.swift */; };
 		AA4BE27C2B0F8AB00080CE56 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BE27B2B0F8AB00080CE56 /* TitlePreviewViewModel.swift */; };
 		AA4C68EE2B0C95F200E322F9 /* APICallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA10D5AF2B165EE000B4C1AD /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
+		AA10D5B12B16869E00B4C1AD /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 		AA43B5542B0BAF2600F2ADD8 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		AA4BE27B2B0F8AB00080CE56 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerProtocol.swift; sourceTree = "<group>"; };
@@ -133,18 +137,19 @@
 		AA5905EB2B07A7BB0098971C /* NetflixClone ProgrammaticUI */ = {
 			isa = PBXGroup;
 			children = (
+				AA5905EC2B07A7BB0098971C /* AppDelegate.swift */,
+				AA5905EE2B07A7BB0098971C /* SceneDelegate.swift */,
+				AA5905F72B07A7BC0098971C /* LaunchScreen.storyboard */,
 				AA59060B2B07B05F0098971C /* Models */,
 				AA5906092B07B0500098971C /* Views */,
 				AA59060A2B07B0570098971C /* ViewModels */,
 				AA5906002B07A9500098971C /* Controllers */,
-				AA5905EC2B07A7BB0098971C /* AppDelegate.swift */,
-				AA5905EE2B07A7BB0098971C /* SceneDelegate.swift */,
-				AA5905F72B07A7BC0098971C /* LaunchScreen.storyboard */,
 				AABBF0DD2B0B7FA900A0020F /* Extensions */,
 				AA59060D2B07B07D0098971C /* Managers */,
 				AA59060C2B07B0730098971C /* Resources */,
 				AA4C68EF2B0C96DC00E322F9 /* Constants */,
 				AA4C68F22B0C973100E322F9 /* Enums */,
+				AA10D5AE2B165EE000B4C1AD /* NetflixCloneModel.xcdatamodeld */,
 			);
 			path = "NetflixClone ProgrammaticUI";
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			children = (
 				AA4C68ED2B0C95F200E322F9 /* APICallerProtocol.swift */,
 				AAE45A5B2B0A70450049E51C /* APICaller.swift */,
+				AA10D5B12B16869E00B4C1AD /* DataPersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 				AA59060F2B07B0E20098971C /* CollectionViewTableViewCell.swift in Sources */,
 				AAE45A5C2B0A70450049E51C /* APICaller.swift in Sources */,
 				AA5906112B07B64F0098971C /* HeroHeaderUIView.swift in Sources */,
+				AA10D5B22B16869E00B4C1AD /* DataPersistenceManager.swift in Sources */,
+				AA10D5B02B165EE000B4C1AD /* NetflixCloneModel.xcdatamodeld in Sources */,
 				AA5906082B07AA020098971C /* DownloadsViewController.swift in Sources */,
 				AAFCAADC2B0E4701000F9786 /* YoutubeSearchResponse.swift in Sources */,
 				AA5905ED2B07A7BB0098971C /* AppDelegate.swift in Sources */,
@@ -548,6 +556,19 @@
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AA10D5AE2B165EE000B4C1AD /* NetflixCloneModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA10D5AF2B165EE000B4C1AD /* NetflixCloneModel.xcdatamodel */,
+			);
+			currentVersion = AA10D5AF2B165EE000B4C1AD /* NetflixCloneModel.xcdatamodel */;
+			path = NetflixCloneModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA5905E12B07A7BB0098971C /* Project object */;
 }
